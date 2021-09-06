@@ -25,9 +25,7 @@ class UserController extends Controller
       $this-> error_code  = GlobalVar::error_code() ;
       $this-> message_code =GlobalVar::$message_code ;
     }
-   
-     
- 
+  
 
     public function register(Request $request) {
 
